@@ -16,7 +16,7 @@ export const SocketProvider = ({ children }: { children: React.ReactNode }) => {
 
   const connectSocket = () => {
     if (!socket) {
-      const newSocket = io(`${process.env.VITE_BASE_URL_SOCKET}`);
+      const newSocket = io(`${import.meta.env.VITE_BASE_URL_SOCKET}`);
       setSocket(newSocket);
 
       newSocket.on("connect", () => {
