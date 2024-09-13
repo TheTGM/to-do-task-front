@@ -1,0 +1,15 @@
+.loader {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #003781;
+  animation: zoom-in-zoom-out 1s ease infinite;
+  gap: 10px;
+}
+
+
+.wrapperClass{
+  z-indez: 200000000000
+}
